@@ -1,6 +1,9 @@
-# MKUP 
-## the upgraded markup language for html
+# MKUP: the upgraded markup language for html :)
 
 ***
 
 ## Features:
+
+### amazing GUI tags:
+
+
