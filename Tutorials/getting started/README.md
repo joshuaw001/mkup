@@ -9,7 +9,7 @@ Import the source code into an html document like this:
 
 ## the tag names are:
 
-1) `<gui>`
+1) [`<gui>`] (https://github.com/joshuaw001/mkup/blob/master/Tutorials/getting%20started/gui.md)
 2) `<radio>`
 3) `<combo>`
 4) `<board>`
