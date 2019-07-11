@@ -18,9 +18,9 @@ All of these tags have ending tags
 
 ### Easy to learn:
 
-`
+```html
 <gui>\n
   <diagram data-img=“Diagram.png”></diagram>\n
   <slider data-start=“1” data-end=“10”> 5 </slider>\n
 </gui>\n
-`
+```
