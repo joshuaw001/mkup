@@ -26,4 +26,7 @@ Creates a *single* radio button
 
 The `<radio>` tag has 2 attributes:
 
-1) 
+1) data-color
+2) data-img
+
+***
