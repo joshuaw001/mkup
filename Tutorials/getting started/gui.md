@@ -6,12 +6,23 @@
 
 The main root tag for mkup.
 
+***
+
 ## syntax
 
 ```html
 
-<gui attributes...>
+<gui>
     Tags go here...
 </gui>
 
 ```
+
+***
+
+## attributes
+
+The `<gui>` tag takes no additional attributes.
+
+***
+
