@@ -8,8 +8,8 @@ action(Inst[i])
 }
 }
 
-//gui tag
+// <diagram> tag
 
-function (e){
-e.innerHTML = 
+function slider(e){
+e.innerHTML = “<
 }
