@@ -12,8 +12,8 @@ function customTag(tag,action){
 
 function diagram(e) {
 	if(e.attributes.picture && e.attributes.nameid) {
-		picture = e.attributes.picture.value
-		name    = e.attributes.nameid.value
+		picture     = e.attributes.picture.value
+		nameid_d    = e.attributes.nameid.value
 		e.innerHTML = "<img src='"+picture+"' usemap='#"+name+"'>" + \n + "<map name="+name+">" + \n
 		
 	}
@@ -21,4 +21,9 @@ function diagram(e) {
 // <text> tag
 
 function text(e) {
+	if(e.attributes.nameid && e.attributes.size) {
+		nameid = e.
+		
+	}
+}
 customTag("mkup-diagram", diagram)
