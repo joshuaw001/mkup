@@ -24,3 +24,5 @@ All of these tags have ending tags
   <slider data-start=“1” data-end=“10”> 5 </slider>
 </gui>
 ```
+
+***
