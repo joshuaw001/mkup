@@ -22,7 +22,10 @@ function diagram(e) {
 
 function text(e) {
 	if(e.attributes.nameid && e.attributes.size) {
-		nameid = e.
+		nameid      = e.attributes.nameid
+                size        = e.attributes.size
+                e.innerHTML = ""
+
 		
 	}
 }
