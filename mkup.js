@@ -24,9 +24,9 @@ function diagram(e) {
 
 function text(e) {
 	if(e.attributes.nameid && e.attributes.size && e.attributes.valueText) {
-		nameid      = e.attributes.nameid
-                size        = e.attributes.size
-                value       = e.attributes.valueText
+		nameid      = e.attributes.nameid.value
+                size        = e.attributes.size.value
+                value       = e.attributes.valueText.value
                 e.innerHTML = "<p style='font-size: " + size + ";'>" + value + "</p>" + \n
 
 		
@@ -36,7 +36,9 @@ function text(e) {
 // <date> tag
 
 function date(e) {
-        
+        if(e.attributes.day) {
+                
+        }
 }
 for(tag in widgets){
         customTag("mkup-" + tag, tag)
