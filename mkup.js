@@ -37,7 +37,7 @@ function text(e) {
 
 function date(e) {
         if(e.attributes.day) {
-                
+                J
         }
 }
 for(tag in widgets){
