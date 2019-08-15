@@ -32,6 +32,12 @@ function text(e) {
 		
 	}
 }
+
+// <date> tag
+
+function date(e) {
+        
+}
 for(tag in widgets){
         customTag("mkup-" + tag, tag)
 }
