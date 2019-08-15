@@ -1,3 +1,5 @@
+widgets = ["accordion","auto","btn","ctrl","radio","date","modal","menu","mega","bar","select","slider","spinner","number","text","tab","tooltip","window","color","anim","diagram"]
+
 // parent function for mkup
 
 function customTag(tag,action){
@@ -21,12 +23,15 @@ function diagram(e) {
 // <text> tag
 
 function text(e) {
-	if(e.attributes.nameid && e.attributes.size) {
+	if(e.attributes.nameid && e.attributes.size && e.attributes.valueText) {
 		nameid      = e.attributes.nameid
                 size        = e.attributes.size
-                e.innerHTML = ""
+                value       = e.attributes.valueText
+                e.innerHTML = "<p style='font-size: " + size + ";'>" + value + "</p>" + \n
 
 		
 	}
 }
-customTag("mkup-diagram", diagram)
+for(tag in widgets){
+        customTag("mkup-" + tag, tag)
+}
