@@ -1,24 +1,50 @@
-# getting started:
+## Getting Started
 
 Import the source code into an html document like this:
 ```html
-<script src=“mkup.js”></script>
+<script src="mkup.js"></script>
 ```
+## Element Names
 
-# mkup as a set of extra tags for html:
+* [`<radio>`](https://github.com/joshuaw001/mkup/blob/master/docs/Radio.md)
+* [`<combo>`](https://github.com/joshuaw001/mkup/blob/master/docs/combo.md)
+* `<board>`
+* `<listbox>`
+* `<btn>`
+* `<text>`
+* `<textbox>`
+* `<pixelarray>`
+* `<window>`
+* `<number>`
+* `<itemgroup>`
+* `<accordion>`
+* `<auto>`
+* `<ctrl>`
+* `<date>`
+* `<modal>`
+* `<multi>`
+* `<menu>`
+* `<mega>`
+* `<vbar>`
+* `<hbar>`
+* `<space>`
+* `<selection>`
+* `<slider>`
+* `<spinner>`
+* `<tabset>`
+* `<tab>`
+* `<tooltip>`
+* `<window>`
+* `<color>`
+* `<anim>`
+* `<code>`
+* `<diagram>`
 
-## the tag names are:
-
-[`<radio>`](https://github.com/joshuaw001/mkup/blob/master/docs/Radio.md)
-`<combo>`
-`<board>`
-`<listbox>`
-`<btn>`
-`<text>`
-`<textbox>`
-`<pixelarray>`
-`<window>`
-`<numberbox>`
-`<groupeditems>`
-
-All of these have end tags
+All of the new html elements have end tags, but some require nothing in between the 2 tags.
+```html
+<tabset>
+  <tab></tab>
+  <tab></tab>
+  <tab></tab>
+</tabset>
+```
