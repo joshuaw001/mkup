@@ -56,8 +56,10 @@ function text(e) {
 // <date> tag
 
 function date(e) {
-        if(e.attributes.day) {
-                J
+        if(e.attributes.day && e.attributes.color) {
+                day         = e.attributes.day.value
+                color       = e.attributes.color.value
+                e.innerHTML = "<div style='color:" + color +";'>" + day + "</div>"
         }
 }
 for(tag in widgets){
