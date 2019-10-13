@@ -1,24 +1,29 @@
-widgets = ["accordion",
-"auto",
-"btn",
-"ctrl",
-"radio",
-"date",
-"modal",
-"menu",
-"mega",
-"bar",
-"select",
-"slider",
-"spinner",
-"number",
-"text",
-"tab",
-"tooltip",
-"window",
-"color",
-"anim",
-"diagram"]
+widgets = 
+[
+	"accordion",
+    "auto",
+    "btn",
+    "ctrl",
+    "radio",
+    "date",
+    "modal",
+    "menu",
+	"multiselect",
+	"mega",
+	"bar",
+	"select",
+	"slider",
+	"spinner",
+	"number",
+	"text",
+	"tab",
+	"tooltip",
+	"window",
+	"color",
+	"anim",
+	"code",
+	"diagram"
+]
 
 // parent function for mkup
 
@@ -62,6 +67,6 @@ function date(e) {
                 e.innerHTML = "<div style='color:" + color +";'>" + day + "</div>"
         }
 }
-for(tag in widgets){
-        customTag("mkup-" + tag, tag)
-}
+
+customTag("gui-text",text)
+customTag("gui-diagram",diagram)
