@@ -1,4 +1,24 @@
-widgets = ["accordion","auto","btn","ctrl","radio","date","modal","menu","mega","bar","select","slider","spinner","number","text","tab","tooltip","window","color","anim","diagram"]
+widgets = ["accordion",
+"auto",
+"btn",
+"ctrl",
+"radio",
+"date",
+"modal",
+"menu",
+"mega",
+"bar",
+"select",
+"slider",
+"spinner",
+"number",
+"text",
+"tab",
+"tooltip",
+"window",
+"color",
+"anim",
+"diagram"]
 
 // parent function for mkup
 
