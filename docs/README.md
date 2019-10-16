@@ -1,4 +1,4 @@
-## Getting Started
+## Getting Started: (:man_technologist:)
 
 Import the source code into an html document like this:
 ```html
