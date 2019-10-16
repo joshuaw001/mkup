@@ -6,10 +6,10 @@ Import the source code into an html document like this:
 ```
 ## Element Names
 
-* [`<radio>`](https://github.com/joshuaw001/mkup/blob/master/docs/Radio.md)
-* [`<combo>`](https://github.com/joshuaw001/mkup/blob/master/docs/combo.md)
-* `<board>`
-* `<listbox>`
+* [ ] [`<radio>`](https://github.com/joshuaw001/mkup/blob/master/docs/Radio.md)
+* [ ] [`<combo>`](https://github.com/joshuaw001/mkup/blob/master/docs/combo.md)
+* [ ] [`<board>`]()
+* [ ] [`<listbox>`]()
 * `<btn>`
 * `<text>`
 * `<textbox>`
@@ -20,7 +20,7 @@ Import the source code into an html document like this:
 * `<accordion>`
 * `<auto>`
 * `<ctrl>`
-* `<date>`
+* [x] `<date>`
 * `<modal>`
 * `<multi>`
 * `<menu>`
