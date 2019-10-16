@@ -70,3 +70,4 @@ function date(e) {
 
 customTag("gui-text",text)
 customTag("gui-diagram",diagram)
+customT
