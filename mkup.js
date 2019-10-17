@@ -24,7 +24,11 @@ widgets =
 	"code",
 	"diagram"
 ]
-
+//universal attributes
+$_P        = "document.attributes."
+$_V        = ".value" 
+$_ATTRS    = [] 
+$_ATTRS[0] = $_P + "nameid"
 // parent function for mkup
 
 function customTag(tag,action){
@@ -61,13 +65,23 @@ function text(e) {
 // <date> tag
 
 function date(e) {
-        if(e.attributes.day && e.attributes.color) {
+        if(e.attributes.day && e.attributes.bgColor && e.attributes.fgColor) {
                 day         = e.attributes.day.value
-                color       = e.attributes.color.value
-                e.innerHTML = "<div style='color:" + color +";'>" + day + "</div>"
+                color       = e.attributes.fgColor.value
+				color2      = e.attributes.bgColor.value
+                e.innerHTML = "<div style='color:" + color +";background-color:" + color2 +"'>" + day + "</div>"
         }
 }
 
+// <auto> tag
+
+function auto(e) {
+	if(e.attributes.corrList && e.attributes.fgColor && e.attributes.bgColor)
+}
+
+//create tag definitions
+
 customTag("gui-text",text)
 customTag("gui-diagram",diagram)
-customT
+customTag("gui-date",date)
+
