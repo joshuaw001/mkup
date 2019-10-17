@@ -26,7 +26,7 @@ widgets =
 ]
 
 //universal attributes
-$_INFINITY  = 9.99e+1000000
+$_INFINITY  = 9.99e+999999
 $_ALL_ATTRS = []
 $_P         = "document.attributes."
 $_V         = "document.attributes."+ $_ALL_ATTRS +".value"
