@@ -91,6 +91,8 @@ function auto(e) {
 	if(e.attributes.corrList && e.attributes.fgColor && e.attributes.bgColor)
 }
 
+
+
 //create tag definitions
 
 customTag("gui-text",text)
