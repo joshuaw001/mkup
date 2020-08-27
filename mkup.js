@@ -1,5 +1,4 @@
-widgets = 
-[
+widgets = [
 	"accordion",
     	"auto",
 	"btn",
@@ -26,23 +25,17 @@ widgets =
 ]
 
 //universal attributes
-$_INFINITY  = 9.99e+999999
-$_ALL_ATTRS = []
-$_P         = "document.attributes."
-$_V         = "document.attributes."+ $_ALL_ATTRS +".value"
-$_ATTRS     =       []
-$_ATTRS[0]  = $_P + ["nameid", NaN ]
-$_ATTRS[1]  = $_P + ["size", "15px" ]
-$_ATTRS[2]  = $_P + ["fgColor", "#000000 ]
-$_ATTRS[3]  = $_P + ["bgColor", "#FFFFFF" ]
-$_ATTRS[4]  = $_P + ["valueText", NaN ]
-$_ATTRS[5]  = $_P + ["fontType", "arial" ]
-$_ATTRS[6]  = $_P + ["accessGrantedBool",false ]
-$_ATTRS[7]  = $_P + ["headerBool",true ]
-$_ATTRS[2]  = $_P + ["elementLimit",$_INFINITY ]
-$_ATTRS[2]  = $_P + ["elementLimitBool",false ]
-// parent function for mkup
+$_INFINITY  = 1e+1000
 
+// parent function for mkup
+class Tag {
+	constructor(name,props={}){ // props = {"attribute name" : "type",...}
+		this.name = name
+		this.props = props
+		// end
+	}
+	validate(){}
+}
 function customTag(tag,action){
     document.createElement(tag)
     Inst = getElementsByTagName(tag)
