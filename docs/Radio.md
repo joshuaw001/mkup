@@ -28,5 +28,7 @@ The `<radio>` tag has 2 attributes:
 
 1) data-color
 2) data-img
-
+3) data-btn1-color\* (inner circle)
+4) data-btn2-color\* (outer circle)
+5)
 ***
